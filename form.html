@@ -1,0 +1,133 @@
+<html>
+    <head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+            </script>
+        <script src="form2.js" ></script>
+<style>
+h1 {text-align: center;}
+h2 {text-align: center;}
+.center {
+  margin: auto;
+  width: 30%;
+  border: 3px solid green;
+  padding: 30px;
+}
+
+</style>
+<style>
+body {
+  background-image: url('https://img.freepik.com/free-vector/hospital-building-ambulance-car_107791-2699.jpg?size=626&ext=jpg&ga=GA1.2.1311593656.1600410366'), url('https://www.skfin.in/img/go-green.png'),url('https://www.clipartkey.com/mpngs/m/5-56347_welcome-to-our-website-blue-stethoscope-heart-clipart.png');
+  background-repeat: no-repeat,no-repeat,no-repeat;
+  background-position: left bottom ,left top,right bottom;
+  margin-right: 140px;
+  padding: 20px;
+}
+</style>   
+    </head>
+    <body style="background-color:#f7f3f2;">
+
+	<div class="center">
+    <form method="POST" action="validation.php">
+    <table>
+            
+      <tr>
+	<h1>AA Hospitals (Care & Cure)</h1> 
+	
+    <h2>  Patient Registration Details</h2>
+    <hr>
+          <td>Name :</td>
+          <td>
+              <input type="text" id="name" name="name" >
+        </td>
+      </tr>
+	<tr>
+          <td>Reg.Id :</td>
+          <td>
+              <input type="text" id="regid" name="regid">
+        </td>
+      </tr>  
+      <tr>
+          <td>C/O :</td>
+          <td>
+              <input type="text" id="co" name="co">
+        </td>
+      </tr> 
+      <tr>
+
+	  <td>Age :</td>
+          <td>
+              <input type="text" id="age" name="age">
+            
+        </td>
+      </tr>
+	<tr>
+	<td>Gender :</td>
+          <td>
+              <input type="text" id="gender"  name="gender">
+        </td>
+      </tr>
+      <tr>
+
+	  <td>Mobile No :</td>
+          <td>
+              <input type="text" id="mobile" name="mobile" onkeyup="vmobile()">
+            <p id="mobile-warn"></p>
+        </td>
+      </tr>
+      <tr>
+	<td>Blood Group :</td>
+          <td>
+              <input type="text" id="bloodgroup" name="bloodgroup">
+        </td>
+      </tr>
+	<tr>
+	<td>Weight (in kgs) :</td>
+          <td>
+              <input type="text" id="weight" name="weight">
+        </td>
+      </tr>
+      <tr>
+	 <td>Address :</td>
+          <td>
+              <input type="text" id="address" name="address" style="height:80px;font-size:15pt;">
+        </td>
+      </tr>
+	<tr>
+	<td>Reason :</td>
+          <td>
+              <input type="text" id="reason" name="reason" >
+        </td>
+      </tr>
+	<tr>
+	<td>Doctor Name :</td>
+          <td>
+              <input type="text" id="doctor" name="doctor" >
+        </td>
+      </tr>
+	<tr>
+	<td>Admit Date :</td>
+          <td>
+              <input type="text" id="admission" name="admission" >
+        </td>
+      </tr>
+	<tr>
+	<td>Discharge Date :</td>
+          <td>
+              <input type="text" id="discharge" name="discharge" >
+        </td>
+      </tr>
+	<tr>
+	<td>Prescription :</td>
+          <td>
+              <input type="text" id="prescription" name="prescription" >
+        </td>
+      </tr>
+	<br>
+      <tr style="text-align: center;">
+          <td  colspan="2"><input type="submit" value="Submit"></td>
+      </tr> 
+        </table>
+</form>
+</div>
+    </body>
+</html>
